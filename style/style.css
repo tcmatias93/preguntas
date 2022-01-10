@@ -1,0 +1,55 @@
+/* estilos aproximados de como quedaria la pagina falta definirlos mejor y cambios */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#tarjeta {
+    background-color: #e3e3e3;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+}
+
+h1{
+    color: grey;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#preguntas {
+    font-size: 2rem;
+    color: gray;
+}
+
+
+.botones {
+    background-color: ivory;
+    color: black;
+    width: 150px;
+    font-size: 1rem;
+    border-radius: 4rem;
+    padding: 10px 20px;
+    margin: 10px 40px 10px;
+    outline: 0;
+}
+
+.botones:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+#progreso {
+    font-size: 1.5rem;
+}
