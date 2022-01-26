@@ -1,8 +1,7 @@
 /*  estas son las preguntas pensadas con las prespuetas correctas marcadas  */
 
-const preguntas = [
-
-    /* ----------------------------DEPORTE------------------------------------------- */
+export const datos = [
+ 
     {
         pregunta:'En que ciudad de Estados Unidos tienen su cede el equipo de la NBA "LOS SPURS"',
         opciones: [
@@ -11,7 +10,6 @@ const preguntas = [
             'California',
             'Miami',],
         respuesta: 'San Antonio'
-
     },
 
     {
@@ -24,7 +22,7 @@ const preguntas = [
         respuesta: 758
     },
 
-    /* --------------------------------------GEOGRAFIA--------------------------------- */
+    
     {
         pregunta: 'A que pais pertenece esta bandera  https://images.emojiterra.com/twitter/v13.1/512px/1f1e7-1f1ea.png  ',
     /* (la idea seria poner la idea de ) */
@@ -47,8 +45,6 @@ const preguntas = [
         respuesta: 'Brasilia'
     },
 
-
-    /* --------------------------------------HISTORIA--------------------------------- */
     {
         pregunta: 'En que fecha termino la 2° segunda guerra mundia',
         opciones:[
@@ -69,7 +65,6 @@ const preguntas = [
         respuesta: 1816,
     },
 
-    /* ---------------------------------ENTETENIMIENTO--------------------------------- */
     {
         pregunta:' Cuantas peliculas de Star Wars fueron dirigidas por George Lucas',
         opciones: [ 
@@ -79,7 +74,6 @@ const preguntas = [
             '2 (dos)'],
         respuesta: '3 (tres)',
     },
-
     
     {
         pregunta:' cuantas peliculas existe de la saga Matrix',
@@ -91,8 +85,6 @@ const preguntas = [
         respuesta: '4 (cuatro)',
     },
 
-
-    /* ---------------------------------JAVASCRIPT---------------------------------- */
     {
         pregunta: 'para mostrar el resultado de una cuenta por consola que sentencia se utiliza ',
         opciones: [
@@ -102,7 +94,6 @@ const preguntas = [
             'Console.Log()'],
         respuesta:'console.log()', 
     },
-
 
     {
         pregunta:' con que estructura se inicializa un ciclo por conteo',
