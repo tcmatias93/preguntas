@@ -1,5 +1,5 @@
 //@ts-check
-import { Pregunta } from "./pregunta.js";
+import { Pregunta } from "./Pregunta.js";
 
 export class Quiz { 
 
@@ -19,11 +19,11 @@ export class Quiz {
      * @returns {Pregunta}
      */
     enQuePreguntaVa() {
-        return this.preguntas[this.preguntaIndex]
+        return this.preguntas[this.preguntaIndex];
     }
 
     fin(){
-        return this.preguntas.length === this.preguntaIndex
+        return this.preguntas.length === this.preguntaIndex;
     }
 
     adivinar(respuesta) {

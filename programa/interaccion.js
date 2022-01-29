@@ -24,5 +24,15 @@ export class Interaccion {
             multiplesOpciones.append(button)
         }
     }
+
+    misPuntos(puntaje) {
+        const puntajeTotal = `
+        <h1>Resultado</h1>
+        <h2>Tu puntaje es: ${puntaje} </h2>`; 
+
+        const resultado = document.getElementById("tarjeta");
+        document.innerHTML = puntajeTotal; 
+    }
+
 }
 
