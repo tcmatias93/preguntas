@@ -1,6 +1,10 @@
 export class Interaccion {
     constructor(){}
 
+    /**
+     * 
+     * @param {string} texto 
+     */
     elegirPregunta(texto) {
         const tituloDeLaPregunta = document.getElementById('preguntas')
         tituloDeLaPregunta.innerHTML = texto
@@ -16,10 +20,9 @@ export class Interaccion {
 
         for (let i=0; i < opciones.length; i++) {
             const button = document.createElement("button");
-            button.innerHTML = opciones[i]
-            button.className = "botones"
-
             button.addEventListener("click", () => llamarDeNuevo(opciones[i]))
+            button.className = "botones"
+            button.innerHTML = opciones[i]
 
             multiplesOpciones.append(button)
         }
@@ -31,7 +34,12 @@ export class Interaccion {
         <h2>Tu puntaje es: ${puntaje} </h2>`; 
 
         const resultado = document.getElementById("tarjeta");
-        document.innerHTML = puntajeTotal; 
+        Element.innerHTML = puntajeTotal; 
+    }
+
+    miProgreso(preguntaIndex, total) {
+        let element = document.getElementById("progreso");
+        element.innerHTML = `Pregunta ${preguntaIndex} de ${total}` 
     }
 
 }
