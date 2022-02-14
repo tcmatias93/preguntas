@@ -2,8 +2,8 @@
 import { Pregunta } from "./Pregunta.js";
 
 export class Quiz { 
-    puntaje=0;
-    preguntaIndex=0;
+    puntaje =0 ;
+    preguntaIndex = 0;
 
     /**
      *
@@ -22,7 +22,7 @@ export class Quiz {
     }
 
     fin(){
-        return this.preguntas.length === this.preguntaIndex;
+        return (this.preguntas.length )=== this.preguntaIndex;
     }
 
     adivinar(respuesta) {
@@ -32,3 +32,4 @@ export class Quiz {
         this.preguntaIndex++;
     }
 }
+

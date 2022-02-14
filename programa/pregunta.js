@@ -2,8 +2,8 @@ export class Pregunta {
     /**
      * 
      * @param {string} texto 
-     * @param {string[]} opcion 
-     * @param {string} Pregunta 
+     * @param {string[]} opcion
+     * @param {string} respuesta 
      */
     constructor(texto, opcion, respuesta){
         this.texto = texto;
@@ -17,6 +17,6 @@ export class Pregunta {
      * @returns {boolean}
      */
     respuestaCorrecta(opcion){
-        return opcion === this.respuestas
+        return opcion === this.respuesta
     }
 }

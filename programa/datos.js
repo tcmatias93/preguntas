@@ -1,7 +1,8 @@
 /*  estas son las preguntas pensadas con las prespuetas correctas marcadas  */
+const imagen = "./belgica.png";
 
 export const datos = [
- 
+
     {
         pregunta:'En que ciudad de Estados Unidos tienen su cede el equipo de la NBA "LOS SPURS"',
         opciones: [
@@ -15,8 +16,8 @@ export const datos = [
     {
         pregunta: 'Cuantos goles oficiales tiene Lionel Messi',
         opciones: [
-            758, 
-            790,
+            790, 
+            758,
             749,
             800],
         respuesta: 758
@@ -24,13 +25,13 @@ export const datos = [
 
     
     {
-        pregunta: 'A que pais pertenece esta bandera  https://images.emojiterra.com/twitter/v13.1/512px/1f1e7-1f1ea.png  ',
-    /* (la idea seria poner la idea de ) */
+        pregunta: `que pais no pertenece a America del Sur`,  
+    
 
         opciones: [
-            'Belgica', 
-            'Alemania',
-            'Rumania',
+            'Brasil', 
+            'Chile',
+            'Belgica',
             'Argentina'],
         respuesta: 'Belgica'
     },
@@ -38,9 +39,9 @@ export const datos = [
     {
         pregunta: 'Cual es la capital de Brasil',
         opciones: [
-            'Brasilia', 
+            'Sao Pablo', 
             'Rio de Janeiro',
-            'Sao Pablo',
+            'Brasilia',
             'Curitiba'],
         respuesta: 'Brasilia'
     },
@@ -58,9 +59,9 @@ export const datos = [
     {
         pregunta:' En que año se firmo la independencia de Argentina',
         opciones: [
-            1816, 
+            1810, 
             1815,
-            1810,
+            1816,
             1827],
         respuesta: 1816,
     },
@@ -88,18 +89,18 @@ export const datos = [
     {
         pregunta: 'para mostrar el resultado de una cuenta por consola que sentencia se utiliza ',
         opciones: [
-            'console.log()', 
+            'Console.Log()', 
             'console()',
             'alert()',
-            'Console.Log()'],
+            'console.log()'],
         respuesta:'console.log()', 
     },
 
     {
         pregunta:' con que estructura se inicializa un ciclo por conteo',
         opciones: [
-            'for ()', 
-            'while ()',
+            'while ()', 
+            'for ()',
             'do() while',
             'case'],
         respuesta:'for ()', 

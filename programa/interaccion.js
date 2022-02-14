@@ -34,7 +34,7 @@ export class Interaccion {
         <h2>Tu puntaje es: ${puntaje} </h2>`; 
 
         const resultado = document.getElementById("tarjeta");
-        Element.innerHTML = puntajeTotal; 
+        resultado.innerHTML = puntajeTotal; 
     }
 
     miProgreso(preguntaIndex, total) {
