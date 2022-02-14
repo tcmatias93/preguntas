@@ -1,5 +1,4 @@
 /*  estas son las preguntas pensadas con las prespuetas correctas marcadas  */
-const imagen = "./belgica.png";
 
 export const datos = [
 

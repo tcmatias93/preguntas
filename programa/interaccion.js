@@ -10,13 +10,16 @@ export class Interaccion {
         tituloDeLaPregunta.innerHTML = texto
     }
 
+
     /**
      * 
      * @param {string[]} opciones 
      */
     misOpciones(opciones, llamarDeNuevo) {
-        const multiplesOpciones = document.getElementById("respuestas")
+         const multiplesOpciones = document.getElementById("respuestas")
         multiplesOpciones.innerText = ""
+
+        
 
         for (let i=0; i < opciones.length; i++) {
             const button = document.createElement("button");
